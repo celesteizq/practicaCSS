@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+img, p {
+	border: 5px solid black;
+}
+
+.uno p{
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	margin-top: 70px;
+}
+.uno img{
+	display: inline-block;
+	position: relative;
+	left: 10px;
+}
+
+.dos p{
+	display: inline-block;
+	box-sizing: content-box;
+	width: 200px;
+	height: 100px;
+
+}
+.dos img{
+	display: inline-block;
+	margin-right: -25px;
+}
+
+.tres img{
+	width: 225px;
+	height: 225px;
+	display: inline-block;
+	margin-left: -25px;
+
+}
+.tres p{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	box-sizing: content-box;	
+	position: relative;
+}
+
+.cuatro{
+	display: block;
+	width: 200px;
+	height: 100px;
+	box-sizing: content-box;
+	margin-top: -50px;
+	margin-left: 55px;
+	
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	border: 3px solid green
+}
